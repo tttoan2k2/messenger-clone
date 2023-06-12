@@ -19,7 +19,7 @@ const MobileItem: FC<MobileItemProps> = ({
     onClick,
 }) => {
     const handlerClick = () => {
-        if (onclick) {
+        if (onClick) {
             return onClick();
         }
     };
